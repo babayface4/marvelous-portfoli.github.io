@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: whitesmoke;
+}
+main{
+  background-color: white;
+  padding: 7%;
+  width: 28%;
+border-radius: 8px;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}kk
+.welcome h1{
+    font-weight: 300;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.huy input{
+    padding: 15px;  
+    width: 100%;
+    border-radius: 4px;
+ background-color: rgba(245, 245, 245, 0.493);
+}
+.ratt{
+    margin-top: 28px;
+} 
+.ratt button{
+    padding: 8px;
+     font-size: 21px;
+  border-radius: 6px;
+  border: none;
+     background: blue;
+     color: white;
+
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 84%;
+}
+.huy label{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.huy input::placeholder{
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.huy{
+  justify-content: center;
+  align-items: center;
+margin-top: 23px;
+ 
+}
+@media screen and (max-width: 1115px) {
+    main{
+        background-color: white;
+        padding: 7%;
+        width: 40%;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      }
+}
+@media screen and (max-width: 752px) {
+    main{
+        background-color: white;
+        padding: 8%;
+        width: 60%;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      }
+}
+@media screen and (max-width: 650px) {
+    main{
+        background-color: white;
+        padding: 11%;
+        width: 73%;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+      }
+}
